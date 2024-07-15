@@ -21,7 +21,7 @@ jobs:
           node-version: '20.x'  
 
       - name: 设置 Python 环境
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'  # 设置你希望使用的 Python 版本，建议使用稳定版本
 
